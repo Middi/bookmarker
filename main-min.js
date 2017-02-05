@@ -1,0 +1,1 @@
+function saveBookmark(e){var t=document.getElementById("siteName").value,m=document.getElementById("siteUrl").value,n={name:t,url:m};console.log(n),e.preventDefault()}document.getElementById("myForm").addEventListener("submit",saveBookmark);
